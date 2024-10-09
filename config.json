@@ -1,0 +1,16 @@
+{
+    "data":{
+    "trainsize":0.8,
+    "validsize":0.8,
+    "seq_length":10,
+    "batch_size":64
+
+},
+    "model":{
+    "type":["LSTM","GRU"],
+    "input_size":[1,1],
+    "hidden_size":[64,64],
+    "epochs":[200,100]
+
+}
+}
